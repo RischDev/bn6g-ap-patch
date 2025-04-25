@@ -11,7 +11,7 @@ If you are not sure how to check the checksum of your file, use [this site](http
 ## TextPET Library Files (.tpl)
 These files are meant to be used with Prof9's [TextPET](https://github.com/Prof9/TextPet) program to convert into a MMBN6 text archive.
 
-- `74C27C BN3BeachBoatAccessGigFreez.tpl` - Changes the LevBus scripts to force certain key items to be required in order to access certain areas. For reference:
+- `0x73A014 LevBus.tpl` - Changes the LevBus scripts to force certain key items to be required in order to access certain areas. For reference:
   - To go to Seaside, you must have Fish
   - To go to Green, you must have AuthData
   - To go to Sky, you must have Umbrella
