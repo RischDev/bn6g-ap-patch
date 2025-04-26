@@ -8,6 +8,25 @@ The scripts are designed to patch the US version of `Mega Man Battle Network 6 -
 ```
 If you are not sure how to check the checksum of your file, use [this site](https://emn178.github.io/online-tools/md5_checksum.html)
 
+# Usage
+Simply place a BN6 ROM named "Megaman Battle Network 6 - Cybeast Gregar (U).gba" into the directory with these scripts, along with a UTF-8 encoded mmbn6cg-us.tpi file from TextPet and installing armips.exe here, and run the batch file. This will output a "patched_combined.gba" ROM that you can test with.
+```
+python diff.py -apply sourcefile outputfile patchfile
+```
+
+The rest of this document will cover what this patch does, and how to generate it in case you make any changes to the constituent scripts.
+
+#Contents
+
+## Assembly files (.asm)
+- `open_mode.asm` - Hooks into the New Game function to set the necessary flags to allow access to every area from the beginning of the game. Also sets the game state to after Gregar has been defeated.
+
+### How To use ASM files
+Simply put the ROM and the asm file in the same directory as [armips](https://github.com/Kingcom/armips) and run it:
+```
+./armips.exe ____.asm
+```
+
 ## TextPET Library Files (.tpl)
 These files are meant to be used with Prof9's [TextPET](https://github.com/Prof9/TextPet) program to convert into a MMBN6 text archive.
 
