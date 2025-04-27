@@ -92,7 +92,6 @@ def patch_rom():
 			new_address.extend(size.to_bytes(2, 'little'))
 			new_address.extend(offset_byte)
 			rom_bytes[start: start+8] = new_address
-			print(new_address)
 
 			rom_bytes.extend(bin)
 			for offset in refs:
