@@ -104,19 +104,19 @@ script 6 mmbn6 {
 }
 script 20 mmbn6 {
 	checkFlag
-		flag = 229
-		jumpIfTrue = 21
-		jumpIfFalse = 4
+		flag = 355
+		jumpIfTrue = 4
+		jumpIfFalse = continue
 	checkFlag
 		flag = 287
 		jumpIfTrue = 27
 		jumpIfFalse = continue
 	checkFlag
-		flag = 3292
+		flag = 229
 		jumpIfTrue = continue
 		jumpIfFalse = 24
 	checkFlag
-		flag = 3295
+		flag = 229
 		jumpIfTrue = 21
 		jumpIfFalse = continue
 	flagSet
@@ -226,11 +226,11 @@ script 23 mmbn6 {
 }
 script 24 mmbn6 {
 	checkFlag
-		flag = 229
+		flag = 288
 		jumpIfTrue = continue
 		jumpIfFalse = 4
 	checkFlag
-		flag = 3293
+		flag = 3292
 		jumpIfTrue = 21
 		jumpIfFalse = continue
 	jump
