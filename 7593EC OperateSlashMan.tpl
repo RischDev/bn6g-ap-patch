@@ -307,7 +307,7 @@ script 24 mmbn6 {
 		jumpIfTrue = continue
 		jumpIfFalse = 0
 	checkFlag
-		flag = 2144
+		flag = 2143
 		jumpIfTrue = 21
 		jumpIfFalse = continue
 	jump
