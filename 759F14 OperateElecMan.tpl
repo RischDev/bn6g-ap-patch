@@ -65,7 +65,7 @@ script 20 mmbn6 {
 	checkFlag
 		flag = 227
 		jumpIfTrue = 21
-		jumpIfFalse = 3
+		jumpIfFalse = continue
 	checkFlag
 		flag = 287
 		jumpIfTrue = 27
@@ -190,7 +190,7 @@ script 24 mmbn6 {
 		jumpIfTrue = continue
 		jumpIfFalse = 3
 	checkFlag
-		flag = 2747
+		flag = 2746
 		jumpIfTrue = 21
 		jumpIfFalse = continue
 	jump
