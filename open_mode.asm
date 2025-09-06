@@ -255,8 +255,6 @@ flagCount:
 flags:
 	; Set doors to open: Central 1, Seaside 1, Green 1, Undernet 1, ACDC, Graveyard, Teachers Room, Cyber Academy. Also sets LevBus access
 	.dh 0x1D15, 0x1C8E, 0x1D97, 0x1E23, 0x1E24, 0x1C98, 0x1C89, 0x1C8A
-	; Set Central Pavilion Door to closed
-	.dh 0x1CAE
 	; Set dungeon comp obstacles to open: Robo Control, Aquarium, JudgeTree, Mr. Weather, Pavilion
 	.dh 0x1D24, 0x1D25, 0x1D45, 0x1D46, 0x1DC6, 0x1DC7, 0x1E07, 0x1E87
 	; Set flag to enable Robo Dog Comp. Set flags to enable Security Cam Comp
@@ -275,8 +273,6 @@ flags:
 flagValues:
 	; Set doors to open: Central 1, Seaside 1, Green 1, Undernet 1, ACDC, Graveyard, Teachers Room, Cyber Academy. Also sets LevBus access
 	.db 0x00, 0x2F, 0x00, 0x20, 0x00, 0x04, 0x00, 0x00
-	; Set Central Pavilion Door to closed
-	.db 0x01
 	; Set dungeon comp obstacles to open: Robo Control, Aquarium, JudgeTree, Mr. Weather, Pavilion
 	.db 0xFE, 0x0F, 0x38, 0x07, 0x00, 0x00, 0x00, 0x00
 	; Set tutorial cutscene flags to enable Robo Dog Comp. Set flags to enable Security Cam Comp
