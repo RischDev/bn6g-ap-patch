@@ -248,7 +248,7 @@ preventCrossFlag:
 .pool
 
 flagCount:
-	.db 0x1A
+	.db 0x1B
 
 .align 4
 
@@ -269,6 +269,10 @@ flags:
 	.dh 0x1D89, 0x1DC8
 	; Enable Final Cutscene Door
 	.dh 0x1E50
+	; Open Lab's Comp 1 Security Cube
+	.dh 0x1C96
+	; Set TalkToProg flag in Mr. Weather 1
+	.dh 0x1E03
 	
 flagValues:
 	; Set doors to open: Central 1, Seaside 1, Green 1, Undernet 1, ACDC, Graveyard, Teachers Room, Cyber Academy. Also sets LevBus access
@@ -287,6 +291,11 @@ flagValues:
 	.db 0x02, 0x02
 	; Enable Final Cutscene Door
 	.db 0x04
+	; Open Lab's Comp 1 Security Cube
+	.db 0xAF
+	; Set TalkToProg flag in Mr. Weather 1
+	.db 0x01
+	
 	
 jobs:
 	.db 0x00, 0x01, 0x02, 0x03, 0x19, 0x04, 0x05, 0x06, 0x07, 0x1C, 0x08, 0x09, 0x0A, 0x0B, 0x0C, 0x1E
