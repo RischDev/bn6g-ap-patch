@@ -42,7 +42,7 @@ script 9 mmbn6s {
 	end
 }
 script 10 mmbn6s {
-	"HealWatr"
+	"BeastOut"
 	end
 }
 script 11 mmbn6s {
@@ -214,7 +214,7 @@ script 52 mmbn6s {
 	end
 }
 script 53 mmbn6s {
-	"QuizData"
+	"HeatCros"
 	end
 }
 script 54 mmbn6s {
@@ -222,11 +222,11 @@ script 54 mmbn6s {
 	end
 }
 script 55 mmbn6s {
-	"PngnThnk"
+	"SlashCrs"
 	end
 }
 script 56 mmbn6s {
-	"RefrncBk"
+	"ElecCros"
 	end
 }
 script 57 mmbn6s {
@@ -234,7 +234,7 @@ script 57 mmbn6s {
 	end
 }
 script 58 mmbn6s {
-	"InvteCrd"
+	"EraseCrs"
 	end
 }
 script 59 mmbn6s {
@@ -242,11 +242,11 @@ script 59 mmbn6s {
 	end
 }
 script 60 mmbn6s {
-	"SrialDat"
+	"ChrgeCrs"
 	end
 }
 script 61 mmbn6s {
-	"SciManul"
+	"AP Item"
 	end
 }
 script 62 mmbn6s {
